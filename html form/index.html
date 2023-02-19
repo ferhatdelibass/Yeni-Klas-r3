@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+     <label for="ad">Adınız:</label><br>
+     <input type="text" id="ad" name="ad"><br>
+     <hr>
+     <label for="soyad">Soyadınız:</label><br>
+     <input type="text" id="soyad" name:soyad>
+
+
+
+
+    </form>
+<form>
+    <input type="radio" id="HTML" name="language" value="HTML">
+    <label>HTML</label><br>
+    <input type="radio" id="CSS" name="language" value="CSS">
+    <label>CSS</label><br>
+    <input type="radio" id:javascript name="language" value="JAVASCRİPT">
+    <label>JAVASCRİPT</label>
+
+
+
+    
+</form><br>
+<form>
+<input type="checkbox" id="bisiklet" name="bisiklet" value="bisiklet">
+<label for="bisiklet">BİSİKlET</label>
+<input type="checkbox" id="araba" name="araba" value="araba">
+<label for="araba">ARABA</label>
+<input type="checkbox" id="bot" name="bot" value="bot">
+<label for="bot">BOT</label>
+
+</form>
+<form>
+<label>isim</label>
+<input type="text"><br>
+<label>soyisim</label>
+<input type="text"><br>
+<input type="submit" value="button">
+
+</form>
+
+<form>
+    <label for="cars">hangi aracı tercih edersiniz</label>
+    <select id="cars" name="cars" size="3">
+        <option value="volvo">volvo</option>
+        <option value="fiat">fiat</option>
+        <option value="auidi">auidi</option>
+
+    </select>
+<input type="submit" value="gönder">
+
+</form><br>
+<form>
+<textarea name="message" rows="20" cols="30">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, eum.</textarea><br>
+<input type="submit" value="submit">
+</form><br><br>
+<form>
+<button type="button" onclick="alert ('merhaba')">click me</button><br>
+<br>
+</form>
+<form>
+<fieldset>
+    <legend>personel</legend>
+    <label>first name</label>
+    <input type="text"><br>
+    <label>last name</label>
+    <input type="text">
+</fieldset>
+<h2>datalist elemanlar</h2>
+<form>
+
+<input list="browsers" name="browser">
+<datalist id="browsers">
+<option value="ınternet explorer">
+<option value="firefox">
+<option value="safari">
+</datalist>
+<input type="submit">
+
+
+
+</form><br><br>
+<form>
+<label for="username">username</label><br>
+<input type="text" id="username" name="username"><br>
+<label for="password">password</label>
+<input type="password" id="password" name="password">
+
+</form><br>
+<form>
+<label for="color">favori rengini seç</label>
+<input type="color" id="color" name="color">
+
+
+</form><br>
+<form>
+<label for="dgunu">doğum günü</label>
+<input type="date" id="dgunu">
+<input type="reset">
+
+</form>
+<form>
+<label for="datemax">2023-12-31 den önce</label>
+<input type="date" id="datemax" max="2023-12-31"><br>
+<label for="datemin">1970-01-01 den sonra</label>
+<input type="date" id="datemin" min="1970-01-01">
+
+</form>
+<form>
+
+    <label for="zaman">gün-saat gir</label>
+    <input type="datetime-local" id="zaman">
+</form>
+<form>
+<label>email giriniz</label>
+<input type="email">
+<input type="submit" value="submit"><br>
+<form>
+<label for="file">select a file:</label><br>
+<input type="file" id="file"><br>
+<label for="miktar">miktar(1-5arasında)</label>
+<input type="number" min="1" max="5" id="miktar"><br>
+<label for="artış">miktar</label>
+<input type="number" min="0" max="100" step="10" id="artış" value="30"><br>
+<label>volume(0-50)</label>
+<input type="range" min="0" max="50" step="5">
+</form><br><br>
+<form>
+<label>isim</label>
+<input type="text" value="ahmet" readonly size="50"><br>
+<label>soyisim</label>
+<input type="text" value="can" disabled size="40"><br><br>
+<input type="text" maxlength="4" required>
+<button type="button" disabled>button</button>
+
+
+</form>
+  
+<form>
+<label>ülke kodu</label>
+<input type="text" pattern="[A-Za-z]{3}" title="geçerli üç harf giriniz">
+<input type="submit" value="submit">
+
+
+
+</form>
+
+
+</form>
+
+
+</body>
+</html>
